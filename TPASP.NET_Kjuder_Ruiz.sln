@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.32630.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{8C76A48E-3FDB-4A0C-86F6-156DF4CAD42D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelo", "Modelo\Modelo.csproj", "{E57257C4-54BF-467E-B4F3-185111B30E28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controlador", "Controlador\Controlador.csproj", "{10F8EE50-926E-47AB-A465-8BDA80588DA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{8C76A48E-3FDB-4A0C-86F6-156DF4CAD42D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C76A48E-3FDB-4A0C-86F6-156DF4CAD42D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C76A48E-3FDB-4A0C-86F6-156DF4CAD42D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E57257C4-54BF-467E-B4F3-185111B30E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E57257C4-54BF-467E-B4F3-185111B30E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E57257C4-54BF-467E-B4F3-185111B30E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E57257C4-54BF-467E-B4F3-185111B30E28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10F8EE50-926E-47AB-A465-8BDA80588DA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F8EE50-926E-47AB-A465-8BDA80588DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F8EE50-926E-47AB-A465-8BDA80588DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F8EE50-926E-47AB-A465-8BDA80588DA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,11 @@
+D:\source\repos\C#\TPWinForm_Kjuder_Ruiz\Modelo\bin\Debug\Modelo.dll
+D:\source\repos\C#\TPWinForm_Kjuder_Ruiz\Modelo\bin\Debug\Modelo.pdb
+D:\source\repos\C#\TPWinForm_Kjuder_Ruiz\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+D:\source\repos\C#\TPWinForm_Kjuder_Ruiz\Modelo\obj\Debug\Modelo.dll
+D:\source\repos\C#\TPWinForm_Kjuder_Ruiz\Modelo\obj\Debug\Modelo.pdb
+C:\Users\juamp\Desktop\Lab_3\Tp_Productos\tp-winform-Kjuder-Ruiz\Modelo\bin\Debug\Modelo.dll
+C:\Users\juamp\Desktop\Lab_3\Tp_Productos\tp-winform-Kjuder-Ruiz\Modelo\bin\Debug\Modelo.pdb
+C:\Users\juamp\Desktop\Lab_3\Tp_Productos\tp-winform-Kjuder-Ruiz\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\juamp\Desktop\Lab_3\Tp_Productos\tp-winform-Kjuder-Ruiz\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\juamp\Desktop\Lab_3\Tp_Productos\tp-winform-Kjuder-Ruiz\Modelo\obj\Debug\Modelo.dll
+C:\Users\juamp\Desktop\Lab_3\Tp_Productos\tp-winform-Kjuder-Ruiz\Modelo\obj\Debug\Modelo.pdb
