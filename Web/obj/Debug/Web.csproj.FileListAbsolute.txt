@@ -55,3 +55,7 @@ D:\source\repos\C#\TPASP.NET_Kjuder_Ruiz\Web\bin\roslyn\System.Buffers.dll
 D:\source\repos\C#\TPASP.NET_Kjuder_Ruiz\Web\bin\roslyn\System.Memory.dll
 D:\source\repos\C#\TPASP.NET_Kjuder_Ruiz\Web\bin\roslyn\System.Numerics.Vectors.dll
 D:\source\repos\C#\TPASP.NET_Kjuder_Ruiz\Web\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\source\repos\C#\TPASP.NET_Kjuder_Ruiz\Web\bin\Controlador.dll
+D:\source\repos\C#\TPASP.NET_Kjuder_Ruiz\Web\bin\Modelo.dll
+D:\source\repos\C#\TPASP.NET_Kjuder_Ruiz\Web\bin\Controlador.pdb
+D:\source\repos\C#\TPASP.NET_Kjuder_Ruiz\Web\bin\Modelo.pdb
