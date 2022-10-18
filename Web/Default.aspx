@@ -1,42 +1,61 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Web._Default" %>
 
-<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-
-    <div class="jumbotron">
-        <h1>ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-        <p><a href="http://www.asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-    </div>
-
-    <div class="row">
-        <div class="col-md-4">
-            <h2>Getting started</h2>
-            <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-            </p>
+<asp:Content ID="headerprincipal" ContentPlaceHolderID="header" runat="server">
+        <div class="row">
+            <div class="col-3 container text-center">
+                <asp:Image ID="logo" runat="server" ImageUrl="./assets/img/logo.png" Width="120px" Height="120px" />
+            </div>
+            <div class="col-6 container text-center">
+                Super Carrito de compras 2022
+            </div>
+            <div class="col-3 container text-center">
+                <div style="display:inline-block;">
+                    <asp:ImageButton ID="botonCarrito" runat="server" ImageUrl="./assets/img/carrito.jpg" Width="60px" Height="60px"/>
+                </div>
+                <div style="display:inline-block;">
+                    <p>Articulos: </p>
+                    <p>Productos: </p>
+                    <p>Efectivo: </p>
+                </div>
+            </div>
         </div>
-        <div class="col-md-4">
-            <h2>Get more libraries</h2>
-            <p>
-                NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
-            </p>
-        </div>
-        <div class="col-md-4">
-            <h2>Web Hosting</h2>
-            <p>
-                You can easily find a web hosting company that offers the right mix of features and price for your applications.
-            </p>
-            <p>
-                <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
-            </p>
-        </div>
-    </div>
+</asp:Content>
 
+<asp:Content ID="bodyprincipal" ContentPlaceHolderID="body" runat="server">
+        <div class="row">
+            <div class="col-1 container">
+      
+            </div>
+            <div class="col-10 container text-center">
+                <% foreach (var articulo in listadoArticulos)
+                    {%>
+                        <div class="card" style="width: 18rem; display:inline-block;">
+                          <img src=<%=articulo.ImagenUrl %> class="card-img-top" alt=<%= articulo.Nombre %>>
+                          <div class="card-body">
+                            <h5 class="card-title"><%= articulo.Nombre %></h5><h5 class="card-title"><%= articulo.Precio %></h5>
+                            <p class="card-text"><%= articulo.Descripcion %></p>
+                              <asp:ImageButton ID="sumarArticulo" runat="server" ImageUrl="./assets/img/mas.jpg" Width="30px" Height="30px"/> <input id="number" type="number" value="1"/> <asp:ImageButton ID="restarArticulo" runat="server" ImageUrl="./assets/img/menos.jpg" Width="30px" Height="30px"/>
+
+                          </div>
+                        </div>
+                <% } %>
+            </div>
+            <div class="col-1 container">
+           
+            </div>
+        </div>
+</asp:Content>
+
+<asp:Content ID="footerprincipal" ContentPlaceHolderID="footer" runat="server">
+            <div class="row">
+            <div class="col-2 container text-center">
+                <p>&copy;</p>
+            </div>
+            <div class="col-8 container text-center">
+                <%: DateTime.Now.Year %>
+            </div>
+            <div class="col-2 container text-center">
+                <p>Tp ASP.NET Ruiz Kjuder </p>
+            </div>
+        </div>
 </asp:Content>
