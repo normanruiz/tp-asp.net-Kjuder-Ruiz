@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Error.aspx.cs" Inherits="Web._Error" %>
+﻿<%@ Page Title="Pagina de error" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Error.aspx.cs" Inherits="Web._Error" %>
 
 <asp:Content ID="headerError" ContentPlaceHolderID="header" runat="server">
     <div class="row">

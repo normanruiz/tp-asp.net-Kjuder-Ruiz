@@ -7,25 +7,25 @@ using System.Web.UI.WebControls;
 
 namespace Web
 {
-    public partial class _Carrito : Page
+    public partial class Confirmacion : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
 
-        protected void botonSeguirComprando_Click(object sender, ImageClickEventArgs e)
+        protected void botonConfirmar_Click(object sender, EventArgs e)
         {
             //Session.Add("pagOrigen", "Default.aspx");
             //Session.Add("listadoCarrito", listadoCarrito);
             Response.Redirect("Default.aspx", false);
         }
 
-        protected void botonTerminarCompra_Click(object sender, ImageClickEventArgs e)
+        protected void botonCancelar_Click(object sender, EventArgs e)
         {
             //Session.Add("pagOrigen", "Default.aspx");
             //Session.Add("listadoCarrito", listadoCarrito);
-            Response.Redirect("Confirmacion.aspx", false);
+            Response.Redirect("Default.aspx", false);
         }
     }
 }

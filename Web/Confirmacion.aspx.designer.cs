@@ -11,34 +11,25 @@ namespace Web
 {
 
 
-    public partial class _Carrito
+    public partial class Confirmacion
     {
 
         /// <summary>
-        /// Control logo.
+        /// Control Confirmar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image logo;
+        protected global::System.Web.UI.WebControls.Button Confirmar;
 
         /// <summary>
-        /// Control seguirComprando.
+        /// Control Cancelar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton seguirComprando;
-
-        /// <summary>
-        /// Control terminalCompra.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton terminalCompra;
+        protected global::System.Web.UI.WebControls.Button Cancelar;
     }
 }

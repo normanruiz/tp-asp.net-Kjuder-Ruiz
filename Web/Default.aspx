@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Web._Default" %>
+﻿<%@ Page Title="Listado de articulos" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="Web._Default" %>
 
 <asp:Content ID="headerprincipal" ContentPlaceHolderID="header" runat="server">
         <div class="row">
@@ -10,7 +10,7 @@
             </div>
             <div class="col-3 container text-center">
                 <div style="display:inline-block;">
-                    <asp:ImageButton ID="botonCarrito" runat="server" ImageUrl="./assets/img/carrito.jpg" Width="60px" Height="60px"/>
+                    <asp:ImageButton ID="botonCarrito" runat="server" ImageUrl="./assets/img/carrito.jpg" Width="60px" Height="60px" OnClick="botonCarrito_Click"/>
                 </div>
                 <div style="display:inline-block;">
                     <p>Articulos: </p>
