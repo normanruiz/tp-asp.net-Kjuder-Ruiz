@@ -13,8 +13,8 @@
                     <asp:ImageButton ID="botonCarrito" runat="server" ImageUrl="./assets/img/carrito.jpg" Width="60px" Height="60px" OnClick="botonCarrito_Click"/>
                 </div>
                 <div style="display:inline-block;">
-                    <p>Articulos: </p>
-                    <p>Productos: </p>
+                    <p>Articulos: <%: listadoCarrito.Keys.Count.ToString() %> </p>
+                    <p>Productos: <%: (listadoCarrito.Values).ToList<int>().Sum().ToString() %> </p>
                     <p>Efectivo: </p>
                 </div>
             </div>
@@ -27,18 +27,20 @@
       
             </div>
             <div class="col-10 container text-center">
-                <% foreach (var articulo in listadoArticulos)
-                    {%>
-                        <div class="card" style="width: 18rem; display:inline-block;">
-                          <img src=<%=articulo.ImagenUrl %> class="card-img-top" alt=<%= articulo.Nombre %>>
-                          <div class="card-body">
-                            <h5 class="card-title"><%= articulo.Nombre %></h5><h5 class="card-title"><%= articulo.Precio %></h5>
-                            <p class="card-text"><%= articulo.Descripcion %></p>
-                              <asp:ImageButton ID="sumarArticulo" runat="server" ImageUrl="./assets/img/mas.jpg" Width="30px" Height="30px"/> <input id="number" type="number" value="1"/> <asp:ImageButton ID="restarArticulo" runat="server" ImageUrl="./assets/img/menos.jpg" Width="30px" Height="30px"/>
 
+                <asp:Repeater ID="RepArticulos" runat="server">
+                    <ItemTemplate>
+                        <div class="card" style="width: 18rem; display:inline-block;">
+                          <img src="<%#Eval("ImagenUrl") %>" class="card-img-top" alt="<%#Eval("Nombre") %>" />
+                          <div class="card-body">
+                            <h5 class="card-title"><%#Eval("Nombre") %></h5>
+                            <h5 class="card-title"><%#Eval("Precio") %></h5>
+                            <p class="card-text"><%#Eval("Descripcion") %></p>
+                            <asp:Button ID="btnAgregar" runat="server" Text="Agregar uno" CssClass="btn btn-primary" CommandArgument='<%#Eval("Id") %>' CommandName="articuloId" OnClick="agregar_Click" />
                           </div>
                         </div>
-                <% } %>
+                    </ItemTemplate>   
+                </asp:Repeater>
             </div>
             <div class="col-1 container">
            
