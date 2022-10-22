@@ -15,7 +15,7 @@ namespace Controlador
 
         public AccesoDatos()
         {
-            conexion = new SqlConnection("Data Source=.; Initial Catalog=CATALOGO_DB;Integrated Security=True;");
+            conexion = new SqlConnection("Data Source=DESKTOP-K5TCC08\\SQLEXPRESS; Initial Catalog=CATALOGO_DB;Integrated Security=True;");
             comando = new SqlCommand();
         }
 

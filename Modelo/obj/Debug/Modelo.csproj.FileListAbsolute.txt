@@ -9,3 +9,9 @@ C:\Users\juamp\Desktop\Lab_3\Tp_Productos\tp-winform-Kjuder-Ruiz\Modelo\obj\Debu
 C:\Users\juamp\Desktop\Lab_3\Tp_Productos\tp-winform-Kjuder-Ruiz\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
 C:\Users\juamp\Desktop\Lab_3\Tp_Productos\tp-winform-Kjuder-Ruiz\Modelo\obj\Debug\Modelo.dll
 C:\Users\juamp\Desktop\Lab_3\Tp_Productos\tp-winform-Kjuder-Ruiz\Modelo\obj\Debug\Modelo.pdb
+C:\Users\juamp\Desktop\Lab_3\Tp_Ecommerce\tp-asp.net-Kjuder-Ruiz\Modelo\bin\Debug\Modelo.dll
+C:\Users\juamp\Desktop\Lab_3\Tp_Ecommerce\tp-asp.net-Kjuder-Ruiz\Modelo\bin\Debug\Modelo.pdb
+C:\Users\juamp\Desktop\Lab_3\Tp_Ecommerce\tp-asp.net-Kjuder-Ruiz\Modelo\obj\Debug\Modelo.csproj.AssemblyReference.cache
+C:\Users\juamp\Desktop\Lab_3\Tp_Ecommerce\tp-asp.net-Kjuder-Ruiz\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\juamp\Desktop\Lab_3\Tp_Ecommerce\tp-asp.net-Kjuder-Ruiz\Modelo\obj\Debug\Modelo.dll
+C:\Users\juamp\Desktop\Lab_3\Tp_Ecommerce\tp-asp.net-Kjuder-Ruiz\Modelo\obj\Debug\Modelo.pdb
